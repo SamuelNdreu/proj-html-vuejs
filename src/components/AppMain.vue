@@ -17,5 +17,10 @@ export default {
     </div>
 </template>
 
-<style lang="scss">    
+<style lang="scss">
+        @use '../styles/partials/variable' as*;
+        @use '../styles/style.scss' as*;
+    main{
+        background-color: $background-color-jumbo-nav;
+    }
 </style>

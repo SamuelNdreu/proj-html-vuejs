@@ -1,21 +1,27 @@
 <script>
-import { store } from '../store.js'
+import NavHeader from './NavHeader.vue';
+import JumboElement from './JumboElement.vue';
+
+
 export default {
     name: 'AppHeader',
-    data() {
-        return {
-            store,
+    components:{
+            NavHeader,
+            JumboElement,
         }
-    },
-}
+    }
 </script>
 
 <template>
-    <div>
+    <nav class="wrapper-lg">
+        <NavHeader />
         
-    </div>
+    </nav>
+    <JumboElement />
+    
+
 </template>
 
-<style lang="scss" scoped>
-    
+<style lang="scss">
+
 </style>

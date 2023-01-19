@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+
+@mixin button-style{
+    
+    font-size: .9rem;
+    border: 0;
+    padding: .4rem 2.5rem;
+}
