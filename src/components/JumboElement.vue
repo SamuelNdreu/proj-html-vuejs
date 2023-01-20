@@ -8,8 +8,8 @@ export default {
     <section class="container j-background container-md mb-3">
         <div class="row mb-3 p-md-4 p-lg-5">
             <div class="col-12 col-md-6 align-self-md-center p-lg-5">
-                <h1 class="fw-bold pb-3 text-light cs-text ">Business Planning</h1>
-                <h2 class="fw-bold pb-3 text-light cs-text">Digital Technology</h2>
+                <h1 class="fw-bold pb-3 text-light cs-texts ">Business Planning</h1>
+                <h2 class="fw-bold pb-3 text-light cs-texts">Digital Technology</h2>
                 <h3 class="text-light cs-text">Modern Solution</h3>
                 <p class="text-primary">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface .</p>
                 <button class="btn btn-primary rounded-pill">Try Now</button>
@@ -30,7 +30,7 @@ export default {
 @use '../styles/style.scss' as*;
 
 
-section.j-background{
+section{
     background-color: $background-color-jumbo-nav;
     
 }
@@ -45,7 +45,7 @@ section.j-background{
 
 
 
-    .cs-text  {
+    .cs-texts  {
         font-size: 3.5rem;
         font-weight: 700;
         

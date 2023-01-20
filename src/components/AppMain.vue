@@ -1,18 +1,23 @@
 <script>
 import { store } from '../store.js'
+import JumboElement from './JumboElement.vue';
+import AppCards from './AppCards.vue';
+import SliderCards from './SliderCards.vue';
 export default {
     name: 'AppMain',
-    data() {
-        return {
-            store,
-        }
-    },
+    components: {
+        JumboElement,
+        AppCards,
+        SliderCards,
+    }
 
 }
 </script>
 
 <template>
-    <section class="container">
+    <JumboElement />
+    <AppCards />
+    <section class="container ms-custom">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="img-wrapper">
@@ -22,8 +27,9 @@ export default {
             </div>
 
             <div class="col-12 col-md-6 align-self-md-center p-lg-5 px-3">
-                <span class="text-light">Start Your Project</span>
-                <h1 class="fw-bold pb-3 text-light cs-text f display-3">Grow Your Business With Our Strategy</h1>
+                <span class="text-light my-1">Start Your Project</span>
+                <h1 class="fw-bold pb-3 text-light cs-text f display-3 cs-text">Grow Your Business With Our Strategy
+                </h1>
                 <p class="text-primary">When, while the lovely valley teems with vapour around meand the meridian sun
                     strikes the upper surface .</p>
                 <button class="btn btn-primary rounded-pill p-2">Try Now</button>
@@ -31,6 +37,7 @@ export default {
             </div>
         </div>
     </section>
+    <SliderCards />
 </template>
 
 <style lang="scss">
@@ -41,16 +48,24 @@ main {
     background-color: $background-color-jumbo-nav;
     margin-top: 4rem;
 
+    .ms-custom {
+        margin-bottom: 90px;
+    }
+
     .rlt {
         width: 63%;
-        top: 18%;
+        top: 25%;
         right: 21%;
     }
 
     .abx {
         width: 20%;
-        top: 168%;
+        top: 172%;
         left: 14%;
+    }
+
+    .cs-text {
+        margin-top: 3rem;
     }
 }
 </style>
