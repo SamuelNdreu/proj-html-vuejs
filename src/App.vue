@@ -36,6 +36,8 @@
   @use './styles/general.scss' as*;
   @use './styles/partials/variable' as*;
   @use 'bootstrap/scss/bootstrap.scss' as*;
-  
+  body{
+    background-color: $background-color-jumbo-nav;
+  }
 
 </style>

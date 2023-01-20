@@ -5,35 +5,35 @@ export default {
 </script>
 
 <template>
-    <div class="container-wrap flex-column">
-        <div class="text-wrap">
-            <h2> Business Planning</h2>
-            <h3>Digital Technology</h3>
-            <h2>Modern Solution!</h2>
-        
-            <div class="paragraph">
-                <p class="m-5">
-                    When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.
-                </p>
+    <section class="container j-background container-md mb-3">
+        <div class="row mb-3 p-md-4 p-lg-5">
+            <div class="col-12 col-md-6 align-self-md-center p-lg-5">
+                <h1 class="fw-bold pb-3 text-light cs-text ">Business Planning</h1>
+                <h2 class="fw-bold pb-3 text-light cs-text">Digital Technology</h2>
+                <h3 class="text-light cs-text">Modern Solution</h3>
+                <p class="text-primary">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface .</p>
+                <button class="btn btn-primary rounded-pill">Try Now</button>
+                <button class="btn btn-primary rounded-pill m-4">Explore More</button>
             </div>
-            <button class="warning m-2">Try it now</button>
-            <button class="warning m-2">Explore More</button>        
-        </div>    
-            
-    </div>
+            <div class="col-12 col-md-6" id="jumbo">
+                <img class="img-fluid w-100" src="../assets/images/header.png" alt="">
+            </div> 
+        </div>
+    </section>
+
 
 
 </template>
+
 <style lang="scss" scoped>
 @use '../styles/partials/variable' as*;
 @use '../styles/style.scss' as*;
 
-.container-wrap {
-    margin: 0 auto;
-    max-width: 1920px;
-    min-height: 800px;
-    background: $background-color-jumbo-nav;
 
+section.j-background{
+    background-color: $background-color-jumbo-nav;
+    
+}
     .flex{
         display: flex;
     }
@@ -43,22 +43,18 @@ export default {
     }
 
 
-    h2 {
-        font-size: 64px;
+
+
+    .cs-text  {
+        font-size: 3.5rem;
         font-weight: 700;
-        line-height: 1.3em;
+        
         letter-spacing: -2px;
-        color: $text-color-primary;
+        color: white;
         
     }
 
-    h3 {
-        font-size: 64px;
-        font-weight: 400;
-        line-height: 1.3em;
-        letter-spacing: -2px;
-        color: $text-color-primary;
-    }
+
 
     p {
         color: $text-color-secondary;
@@ -67,5 +63,4 @@ export default {
         line-height: 1.5em;
         max-width: 449px;
     }
-}
 </style>

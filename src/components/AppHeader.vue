@@ -1,6 +1,7 @@
 <script>
 import NavHeader from './NavHeader.vue';
 import JumboElement from './JumboElement.vue';
+import AppCards from './AppCards.vue';
 
 
 export default {
@@ -8,6 +9,7 @@ export default {
     components:{
             NavHeader,
             JumboElement,
+            AppCards,
         }
     }
 </script>
@@ -18,6 +20,7 @@ export default {
         
     </nav>
     <JumboElement />
+    <AppCards />
     
 
 </template>
