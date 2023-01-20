@@ -16,7 +16,7 @@ export default {
         <div class="row">
             <div class="col-12 p-5">
                 <span class="d-flex justify-content-center text-danger font fw-bold">Our Services</span>
-                <h4 class="d-flex justify-content-center">What do we do</h4>
+                <h4 class="d-flex justify-content-center"><b>What </b>  do we do</h4>
                 <p class="d-flex justify-content-center">When, while the lovely valley teems with vapour around meand
                     the</p>
             </div>
