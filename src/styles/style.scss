@@ -12,3 +12,67 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 
 }
+
+
+
+
+
+.flex{
+  display: flex;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-wrap{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+article.professional,
+article.advanced,
+article.enterprise{
+  width: 30rem;
+  height: 50rem;
+    
+  display: inline-block;
+  margin:  3rem 1.3rem;
+  top: 278%;
+  padding-left: 1rem;
+  align-items: stretch;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgba(80, 74, 74, 0.315);
+  
+
+}
+
+article.develop{
+  background-color: #ce3b6d;
+}

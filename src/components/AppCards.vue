@@ -15,7 +15,7 @@ export default {
     <section class="container-fluid bg-white">
         <div class="row">
             <div class="col-12 p-5">
-                <span class="d-flex justify-content-center">Our Fuck</span>
+                <span class="d-flex justify-content-center text-danger font font-weight-bold">Our Services</span>
                 <h4 class="d-flex justify-content-center">What do we do</h4>
                 <p class="d-flex justify-content-center">When, while the lovely valley teems with vapour around meand
                     the</p>

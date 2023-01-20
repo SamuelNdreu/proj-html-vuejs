@@ -3,12 +3,14 @@ import { store } from '../store.js'
 import JumboElement from './JumboElement.vue';
 import AppCards from './AppCards.vue';
 import SliderCards from './SliderCards.vue';
+import PriceCards from './PriceCards.vue';
 export default {
     name: 'AppMain',
     components: {
         JumboElement,
         AppCards,
         SliderCards,
+        PriceCards,
     }
 
 }
@@ -38,6 +40,7 @@ export default {
         </div>
     </section>
     <SliderCards />
+    <PriceCards />
 </template>
 
 <style lang="scss">
