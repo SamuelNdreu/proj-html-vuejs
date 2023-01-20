@@ -4,6 +4,7 @@ import JumboElement from './JumboElement.vue';
 import AppCards from './AppCards.vue';
 import SliderCards from './SliderCards.vue';
 import PriceCards from './PriceCards.vue';
+import LatestPost from './LatestPost.vue'
 export default {
     name: 'AppMain',
     components: {
@@ -11,6 +12,7 @@ export default {
         AppCards,
         SliderCards,
         PriceCards,
+        LatestPost,
     }
 
 }
@@ -41,6 +43,7 @@ export default {
     </section>
     <SliderCards />
     <PriceCards />
+    <LatestPost />
 </template>
 
 <style lang="scss">

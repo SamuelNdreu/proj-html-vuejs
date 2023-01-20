@@ -2,6 +2,9 @@
 import { store } from '../store.js'
 export default {
     name: 'SliderCards',
+    components: {
+        
+    },
     data() {
         return {
             store,
@@ -12,28 +15,33 @@ export default {
 </script>
 
 <template>
-    <section class="container-fluid bg-white my-4 gy-4">
+    <section class="container-fluid bg-white my-4 gy-4 cs-container ">
         <div class="row">
             <div class="col-12">
                 <h3>Portfolio</h3>
                 <p>latest work</p>
+                <div class="carousel text-center">
+                    <span class="">
+                         ---- Here Carousel -----
+                    </span>
+                </div>
             </div>
         </div>
     </section>
-    <section id="game-id-card" class="container-fluid   bg-white jumpy g-5">
-            <div class="row g-3">
-                <div class="col-12 text-center">
-                    <h1> Carousel Place</h1>
-                </div>
-            </div>
-        </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/partials/variable' as*;
 @use '../styles/style.scss' as*;
-    section{
+
+section {
     background-color: white;
-    
+    height: 300px;
+    padding-bottom: 10rem;
+
+    div.carousel {
+        height: 30px;
+    }
+
 }
 </style>

@@ -28,7 +28,7 @@ export default {
                 <div class="singolo my-5"><i class="fa-solid fa-user"></i></div>
                 <div class="padding">
                     <h1 class="text-dark display-4">Designing</h1>
-                    <h2 class="display-3">40£</h2>
+                    <h2 class="display-3 fw-bold">40£</h2>
                     <p class="grey">Per Month</p><br>
                     <p> Creative Design Enabled</p>
                     <p> Vibrant Color Usage</p>
@@ -44,7 +44,7 @@ export default {
                 <div class="singolo my-5"><i class="fa-solid fa-user"></i></div>
                 <div class="padding">
                     <h1 class="text-dark display-4">Developing</h1>
-                    <h2 class="display-3">60£</h2>
+                    <h2 class="display-3 fw-bold">60£</h2>
                     <p class="grey">Per Month</p><br>
                     <p>Creative Design Enabled</p>
                     <p>> Vibrant Color Usage</p>
@@ -60,7 +60,7 @@ export default {
                 <div class="singolo my-5"><i class="fa-solid fa-user"></i></div>
                 <div class="padding">
                     <h1 class="text-dark display-4">Supporting</h1>
-                    <h2 class="display-3">80£</h2>
+                    <h2 class="display-3 fw-bold">80£</h2>
                     <p class="grey">Per Month</p><br>
                     <p>Creative Design Enabled</p>
                     <p> Vibrant Color Usage</p>
@@ -82,8 +82,8 @@ section.pricelist {
 }
 
 section.plans-detail {
-    padding-bottom: 75rem;
-    height: 900px;
+    padding-bottom: 40rem;
+    height: 70px;
 
     article.develop {
         background-color: #ce3b6d;
