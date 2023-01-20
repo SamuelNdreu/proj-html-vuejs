@@ -30,24 +30,27 @@ export default {
                         <h3>Amazon gets CCI nod to acquire 49% stake in</h3>
                         <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis laudantium odit illo dolor corrupti quaerat id doloribus, sit officia mollitia eum labore fugiat eos aliquid. Odit et ut tempora consectetur!
                         Modi corporis recusandae temporibus eaque, ducimus soluta, </p>
+                        <button class="btn btn-primary rounded-pill m-4 d-flex justify-content-start">Order Now </button>
                     </article>
                 </div>
                 <div class="col-2">
                     <article class="corporations rounded-5">
-                        <span class="">
+                        <span class="m-3">
                             Apri 21,2019 by Paul
                         </span>
-                        <h3>Amazon gets CCI nod to acquire 49% stake in</h3>
-                        <p>When, while the lovely valley teems with vapor around me, and the meridian sun s ...</p>  
+                        <h3 class="m-3">Amazon gets CCI nod to acquire 49% stake in</h3>
+                        <p class="m-3">When, while the lovely valley teems with vapor around me, and the meridian sun s ...</p>
+                        <button class="btn btn-primary rounded-pill m-4 d-flex justify-content-start m-3">Order Now </button>
                     </article>
                 </div>
                 <div class="col-6">
-                    <article class=" bagigio rounded-5">
-                        <span class="">
+                    <article class=" bagigio rounded-5 ">
+                        <span class="m-3">
                             Apri 21,2019 by Paul
                         </span>
-                        <h3>Amazon gets CCI nod to acquire 49% stake in</h3>
-                        <p>When, while the lovely valley teems with vapor around me, and the meridian sun s ...</p>  
+                        <h5 class="m-3">Amazon gets CCI nod to acquire <br> % stake in</h5>
+                        <p class="m-3">When, while the lovely valley teems with vapor around me, and the meridian sun s ...</p> 
+                        <button class="btn btn-primary rounded-pill m-4 d-flex justify-content-start">Order Now </button> 
                     </article>
                 </div>
             </div>
@@ -77,6 +80,7 @@ article.corporations{
     background-color: #0c194e;
     margin-left: 25rem;
     color: $text-color-primary;
+    padding: 3rem;
     span{
         margin-top: 3rem;
     }
@@ -87,7 +91,7 @@ article.bagigio{
     background-color: #0c194e;
     margin-left: 35rem;
     color: $text-color-primary;
-    font-size: 0.9rem;
+    padding: 3rem;
 }
 
 
