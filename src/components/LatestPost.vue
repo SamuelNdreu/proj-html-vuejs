@@ -95,5 +95,10 @@ article.bagigio{
 }
 
 
+    button:hover.btn{
+        background-color: rgb(131, 163, 163);
+    }
+
+
     
 </style>

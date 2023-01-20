@@ -88,5 +88,9 @@ section.plans-detail {
     article.develop {
         background-color: #ce3b6d;
     }
+
+tton:hover.btn{
+        background-color: rgb(131, 163, 163);
+    }
 }
 </style>

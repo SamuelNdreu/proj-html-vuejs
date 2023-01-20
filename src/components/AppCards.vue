@@ -15,7 +15,7 @@ export default {
     <section class="container-fluid bg-white">
         <div class="row">
             <div class="col-12 p-5">
-                <span class="d-flex justify-content-center text-danger font font-weight-bold">Our Services</span>
+                <span class="d-flex justify-content-center text-danger font fw-bold">Our Services</span>
                 <h4 class="d-flex justify-content-center">What do we do</h4>
                 <p class="d-flex justify-content-center">When, while the lovely valley teems with vapour around meand
                     the</p>
@@ -27,18 +27,18 @@ export default {
                     <img src="../assets/images/Group-538.png" alt="">
                 </figure>
                 <div class="content-image-text mt-4 text-center">
-                    <h3>Data Analysis</h3>
+                    <h3 class="fw-bold">Data Analysis</h3>
                     <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper
                     </p>
                 </div>
             </div>
             <div class="col-2 me-3 mb-5">
                 <figure>
-                    <img src="../assets/images/Group-538.png" alt="">
+                    <img src="../assets/images/Group-567.png" alt="">
                 </figure>
 
                 <div class="content-image-text mt-4 text-center">
-                    <h3>Data Analysis</h3>
+                    <h3 class="fw-bold">SEO Optimization</h3>
                     <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper
                     </p>
                 </div>
@@ -48,17 +48,17 @@ export default {
                     <img src="../assets/images/Group-538.png" alt="">
                 </figure>
                 <div class="content-image-text mt-4 text-center">
-                    <h3>Data Analysis</h3>
+                    <h3 class="fw-bold">Security Data</h3>
                     <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper
                     </p>
                 </div>
             </div>
             <div class="col-2 me-3 mb-5">
                 <figure>
-                    <img src="../assets/images/Group-538.png" alt="">
+                    <img src="../assets/images/Group-566.png" alt="">
                 </figure>
                 <div class="content-image-text mt-4 text-center">
-                    <h3>Data Analysis</h3>
+                    <h3 class="fw-bold">Branding Strategy</h3>
                     <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper
                     </p>
                 </div>
